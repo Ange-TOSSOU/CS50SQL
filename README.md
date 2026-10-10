@@ -1,6 +1,6 @@
 # CS50 SQL
 
-CS50 SQL is an introduction to Databases with SQL using Sqlites, PostgreSQL and MySQL. It's a course delivered by the Harvard University which covered the topics below :
+CS50 SQL is an introduction to Databases with SQL using SQLite, PostgreSQL and MySQL. It's a course delivered by the Harvard University which covered the topics below :
 
 - Querying
 - Relating
@@ -17,30 +17,33 @@ I created this repository to save all my solutions for those problems. Feel free
 
 ## My problem sets solutions
 
+### Week 0 - Querying : Problem Set 0
+- [Cyberchase][pset0_1]
+
 ## Languages - Technologies - Tools - and more
 
-## Libraries
+- VS Code
 
 
 [cs50sql_material]: https://cs50.harvard.edu/sql/
 
-[pset0_1]: ./Week_0/indoor/
-[pset0_2]: ./Week_0/playback/
-[pset0_3]: ./Week_0/faces/
-[pset0_4]: ./Week_0/einstein/
-[pset0_5]: ./Week_0/tip/
+[pset0_1]: ./week_0/cyberchase/
+[pset0_2]: ./week_0/playback/
+[pset0_3]: ./week_0/faces/
+[pset0_4]: ./week_0/einstein/
+[pset0_5]: ./week_0/tip/
 
-[pset1_1]: ./Week_1/deep/
-[pset1_2]: ./Week_1/bank/
-[pset1_3]: ./Week_1/extensions/
-[pset1_4]: ./Week_1/interpreter/
-[pset1_5]: ./Week_1/meal/
+[pset1_1]: ./week_1/deep/
+[pset1_2]: ./week_1/bank/
+[pset1_3]: ./week_1/extensions/
+[pset1_4]: ./week_1/interpreter/
+[pset1_5]: ./week_1/meal/
 
-[pset2_1]: ./Week_2/camel/
-[pset2_2]: ./Week_2/coke/
-[pset2_3]: ./Week_2/twttr/
-[pset2_4]: ./Week_2/plates/
-[pset2_5]: ./Week_2/nutrition/
+[pset2_1]: ./week_2/camel/
+[pset2_2]: ./week_2/coke/
+[pset2_3]: ./week_2/twttr/
+[pset2_4]: ./week_2/plates/
+[pset2_5]: ./week_2/nutrition/
 
 [pset3_1]: ./week_3/fuel/
 [pset3_2]: ./week_3/taqueria/
