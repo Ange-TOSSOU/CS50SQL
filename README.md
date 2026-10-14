@@ -23,6 +23,11 @@ I created this repository to save all my solutions for those problems. Feel free
 - [Normals][pset0_3]
 - [Players][pset0_4]
 
+### Week 1 - Relating : Problem Set 1
+- [Packages, Please][pset1_1]
+- [DESE][pset1_2]
+- [Moneyball][pset1_3]
+
 ## Languages - Technologies - Tools - and more
 
 - VS Code
@@ -34,3 +39,7 @@ I created this repository to save all my solutions for those problems. Feel free
 [pset0_2]: ./week_0/views/
 [pset0_3]: ./week_0/normals/
 [pset0_4]: ./week_0/players/
+
+[pset1_1]: ./week_1/packages/
+[pset1_2]: ./week_1/dese/
+[pset1_3]: ./week_1/moneyball/
