@@ -28,6 +28,11 @@ I created this repository to save all my solutions for those problems. Feel free
 - [DESE][pset1_2]
 - [Moneyball][pset1_3]
 
+### Week 2 - Designing : Problem Set 2
+- [ATL][pset2_1]
+- [Happy to Connect][pset2_2]
+- [Union Square Donuts][pset2_3]
+
 ## Languages - Technologies - Tools - and more
 
 - VS Code
@@ -43,3 +48,7 @@ I created this repository to save all my solutions for those problems. Feel free
 [pset1_1]: ./week_1/packages/
 [pset1_2]: ./week_1/dese/
 [pset1_3]: ./week_1/moneyball/
+
+[pset2_1]: ./week_2/atl/
+[pset2_2]: ./week_2/connect/
+[pset2_3]: ./week_2/donuts/
