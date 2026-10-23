@@ -33,6 +33,10 @@ I created this repository to save all my solutions for those problems. Feel free
 - [Happy to Connect][pset2_2]
 - [Union Square Donuts][pset2_3]
 
+### Week 3 - Writing : Problem Set 3
+- [Don't Panic!][pset3_1]
+- [Meteorite Cleaning][pset3_2]
+
 ## Languages - Technologies - Tools - and more
 
 - VS Code
@@ -52,3 +56,6 @@ I created this repository to save all my solutions for those problems. Feel free
 [pset2_1]: ./week_2/atl/
 [pset2_2]: ./week_2/connect/
 [pset2_3]: ./week_2/donuts/
+
+[pset3_1]: ./week_3/dont-panic/
+[pset3_2]: ./week_3/meteorites/
