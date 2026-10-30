@@ -37,6 +37,11 @@ I created this repository to save all my solutions for those problems. Feel free
 - [Don't Panic!][pset3_1]
 - [Meteorite Cleaning][pset3_2]
 
+### Week 4 - Viewing : Problem Set 4
+- [Census Taker][pset4_1]
+- [The Private Eye][pset4_2]
+- [Bed and Breakfast][pset4_3]
+
 ## Languages - Technologies - Tools - and more
 
 - VS Code
@@ -59,3 +64,7 @@ I created this repository to save all my solutions for those problems. Feel free
 
 [pset3_1]: ./week_3/dont-panic/
 [pset3_2]: ./week_3/meteorites/
+
+[pset4_1]: ./week_4/census/
+[pset4_2]: ./week_4/private/
+[pset4_3]: ./week_4/bnb/
