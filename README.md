@@ -42,6 +42,10 @@ I created this repository to save all my solutions for those problems. Feel free
 - [The Private Eye][pset4_2]
 - [Bed and Breakfast][pset4_3]
 
+### Week 5 - Optimizing : Problem Set 5
+- [In a Snap][pset5_1]
+- [your.harvard][pset5_2]
+
 ## Languages - Technologies - Tools - and more
 
 - VS Code
@@ -68,3 +72,6 @@ I created this repository to save all my solutions for those problems. Feel free
 [pset4_1]: ./week_4/census/
 [pset4_2]: ./week_4/private/
 [pset4_3]: ./week_4/bnb/
+
+[pset5_1]: ./week_5/snap/
+[pset5_2]: ./week_5/harvard/
