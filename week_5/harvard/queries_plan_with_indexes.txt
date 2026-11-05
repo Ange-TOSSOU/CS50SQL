@@ -1,0 +1,30 @@
+QUERY PLAN
+|--SEARCH students USING INTEGER PRIMARY KEY (rowid=?)
+|--SEARCH enrollments USING INDEX search_enrollments_by_student_id (student_id=?)
+`--SEARCH courses USING INTEGER PRIMARY KEY (rowid=?)
+QUERY PLAN
+|--SEARCH students USING INTEGER PRIMARY KEY (rowid=?)
+`--LIST SUBQUERY 2
+   |--SEARCH enrollments USING INDEX search_enrollments_by_course_id (course_id=?)
+   `--SCALAR SUBQUERY 1
+      `--SEARCH courses USING INDEX search_courses_by_semester (semester=?)
+QUERY PLAN
+|--SEARCH courses USING INDEX search_courses_by_semester (semester=?)
+|--SEARCH enrollments USING COVERING INDEX search_enrollments_by_course_id (course_id=?)
+`--USE TEMP B-TREE FOR ORDER BY
+QUERY PLAN
+`--SEARCH courses USING INDEX search_courses_by_semester (semester=?)
+QUERY PLAN
+|--SEARCH requirements USING INTEGER PRIMARY KEY (rowid=?)
+`--SCALAR SUBQUERY 2
+   |--SEARCH satisfies USING INDEX search_satisfies_by_course_id (course_id=?)
+   `--SCALAR SUBQUERY 1
+      `--SEARCH courses USING INDEX search_courses_by_semester (semester=?)
+QUERY PLAN
+|--SEARCH satisfies USING INDEX search_satisfies_by_course_id (course_id=?)
+|--LIST SUBQUERY 1
+|  `--SEARCH enrollments USING INDEX search_enrollments_by_student_id (student_id=?)
+|--SEARCH requirements USING INTEGER PRIMARY KEY (rowid=?)
+`--USE TEMP B-TREE FOR GROUP BY
+QUERY PLAN
+`--SEARCH courses USING INDEX search_courses_by_semester (semester=?)
