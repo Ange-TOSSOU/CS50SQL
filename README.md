@@ -46,6 +46,12 @@ I created this repository to save all my solutions for those problems. Feel free
 - [In a Snap][pset5_1]
 - [your.harvard][pset5_2]
 
+### Week 6 - Scaling : Problem Set 6
+- [Happy to Connect (Sentimental)][pset6_1]
+- [From the Deep][pset6_2]
+- [Don't Panic! (Sentimental) with Python][pset6_3]
+- [Don't Panic! (Sentimental) with Java][pset6_4]
+
 ## Languages - Technologies - Tools - and more
 
 - VS Code
@@ -75,3 +81,8 @@ I created this repository to save all my solutions for those problems. Feel free
 
 [pset5_1]: ./week_5/snap/
 [pset5_2]: ./week_5/harvard/
+
+[pset6_1]: ./week_6/sentimental-connect/
+[pset6_2]: ./week_6/deep/
+[pset6_3]: ./week_6/dont-panic-python/
+[pset6_4]: ./week_6/dont-panic-java/
